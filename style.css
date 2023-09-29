@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cabecalho{
+    background-color: purple;
+    font-size:2rem;
+    color: white;
+    text-decoration: none;
+}
+.cabecalho a{
+        color: white;
+}
+
+.container1{
+    border-top: solid 5px white;
+    border-bottom: solid 5px white;
+    background-color: rebeccapurple;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container1 h1{
+    font-size: 5rem;
+}
+.container1 h3{
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.container1 img{
+    width: 47vw;
+
+}
+.container3{
+    border-top: solid 5px white;
+    border-bottom: solid 5px white;
+    background-color: rebeccapurple;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.container4{
+    background-color: white;
+    color: white;
+    display: flex;
+
+    justify-content: space-around;
+}
+.card{
+    background-color:blueviolet ;
+    border-bottom: solid 5px white;
+    color: white;
+
+}
+
+.linkes{
+    height: 100vh;
+    background-color: rebeccapurple;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1rem;
+    
+    
+}
+.rodape {
+    background-color: purple;
+    color: white;
+    
+}
+.rodape ul{
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.rodape a{
+    color: white;
+}
